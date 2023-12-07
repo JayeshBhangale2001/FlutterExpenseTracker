@@ -43,10 +43,8 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomInset: false,
       appBar: AppBar(title: Text('Login')),
-      body: 
-      Padding(
+      body: Padding(
         padding: EdgeInsets.all(16.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -76,8 +74,6 @@ class LoginPage extends StatelessWidget {
               },
               child: Text('Login'),
             ),
-            Image.network('https://th.bing.com/th/id/R.9fbd2c4374b9d1601fbfefe67c712be9?rik=Mrs9MnV8nCWJGw&riu=http%3a%2f%2f1.bp.blogspot.com%2f-7horPmqEB_s%2fUDDoK-BmXrI%2fAAAAAAAAAIo%2feCgo7vEtRK8%2fs1600%2fbirthday-card.jpg&ehk=od%2fEdPP0JqVEhoRn2ChOhXDJu1%2b7%2bWdOy0Bsxhx%2bhZM%3d&risl=&pid=ImgRaw&r=0',
-             width: 1000,height: 300,), 
           ],
         ),
       ),
